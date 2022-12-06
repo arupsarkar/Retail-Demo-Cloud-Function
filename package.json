@@ -1,0 +1,17 @@
+{
+  "name": "retail-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=validateSentiment",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "@tensorflow/tfjs": "^4.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
